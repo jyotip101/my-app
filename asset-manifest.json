@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jyotip101/my-app/static/css/main.a3fbd218.chunk.css",
+    "main.js": "/jyotip101/my-app/static/js/main.cab9d4f4.chunk.js",
+    "main.js.map": "/jyotip101/my-app/static/js/main.cab9d4f4.chunk.js.map",
+    "runtime-main.js": "/jyotip101/my-app/static/js/runtime-main.ed9dc299.js",
+    "runtime-main.js.map": "/jyotip101/my-app/static/js/runtime-main.ed9dc299.js.map",
+    "static/js/2.05a7055f.chunk.js": "/jyotip101/my-app/static/js/2.05a7055f.chunk.js",
+    "static/js/2.05a7055f.chunk.js.map": "/jyotip101/my-app/static/js/2.05a7055f.chunk.js.map",
+    "index.html": "/jyotip101/my-app/index.html",
+    "static/css/main.a3fbd218.chunk.css.map": "/jyotip101/my-app/static/css/main.a3fbd218.chunk.css.map",
+    "static/js/2.05a7055f.chunk.js.LICENSE.txt": "/jyotip101/my-app/static/js/2.05a7055f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed9dc299.js",
+    "static/js/2.05a7055f.chunk.js",
+    "static/css/main.a3fbd218.chunk.css",
+    "static/js/main.cab9d4f4.chunk.js"
+  ]
+}
