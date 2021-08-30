@@ -1,0 +1,113 @@
+.projects{  
+    width: 100%;
+    display: flex;  
+    // justify-content: space-around; 
+    flex-direction: column;
+
+        & .header-contant{
+            // margin: 0 auto 1rem 2rem;
+            padding-left: 5%;
+            margin-bottom: 1rem;
+            text-align: left;
+        
+            & p{
+                font-weight: 900;
+            }
+        }
+    
+        & .cards{ 
+            padding: 0 4px;
+            background-color: transparent;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            // justify-content: center;
+            // align-items: center;
+            
+            & .card{
+                width: 80%;
+                height: 200px; 
+                background-color: $card-1; 
+                margin: 1rem auto; 
+                border-radius: 5px;
+                padding: 1rem;
+                padding-top: 2rem;
+                box-shadow: 0px 7px 8px 0px#1617183d;
+                transition: $set-transition; 
+
+                &:hover{
+                    transform: scale(1.1); 
+                    transform: scale(1.1);
+                }
+
+                & .preview{
+                    outline: none;
+                    border: none;
+                    background-color: $font-color;
+                    color: #fefefe; 
+                    padding: 8px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                    transition: $set-transition; 
+
+                    & i{
+                        font-weight: 900;
+                    }
+                    
+                    &:hover{ 
+                        background-color: $bg-color;
+                        color: $font-color;
+                        transform: scale(1.1);
+                        
+                    }
+                }
+
+                & .title{
+                    margin: 1.5rem 0;
+                    padding-right: 2rem;
+                    font-size: 100%;
+                }
+                & .btn{
+                    display: flex; 
+                    
+                    align-items: center;
+                    justify-content: space-between; 
+
+                    &-item{
+                        outline: none;
+                        border: none;
+                        background-color: $font-color;
+                        color: #fefefe;
+                        padding: 8px; 
+                        border-radius: 2px;
+                        cursor: pointer;
+                        transition: $set-transition; 
+
+                        &:hover{
+                            transform: scale(1.1);
+                            background-color: $bg-color;
+                            color: $font-color;
+                        }
+                    }
+
+                    & .arrow{
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                        background: transparent; 
+                        font-size: 1rem;
+                        margin: 0 1rem;
+                        transition: $set-transition; 
+                        
+                        &:hover{
+                            transform: scale(1.1);
+                            color: $bg-color;
+                        }
+                    }
+                } 
+
+            }
+            
+        }
+    
+}

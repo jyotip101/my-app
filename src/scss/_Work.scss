@@ -1,0 +1,43 @@
+.work{
+    background: transparent;
+    margin-top: 3rem;
+
+    &-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        & .work-text {
+            text-align: center;
+        }
+
+        & .work-btn{
+            margin-top: 1rem;
+
+            & .btn{
+                outline: none;
+                border: none;
+                background-color: $font-color;
+                color: #fefefe; 
+                padding: 8px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: $set-transition; 
+
+                & i{
+                    font-weight: 900;
+                }
+                
+                &:hover{
+                    background-color: $card-3;
+                    color: $font-color;
+                    transition: $set-transition;
+                }
+            }
+        }
+
+    }
+
+
+}

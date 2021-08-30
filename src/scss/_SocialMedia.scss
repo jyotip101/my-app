@@ -1,0 +1,35 @@
+.socialMedia{ 
+    position: absolute;  
+    right: 0;   
+ 
+    &-items{ 
+        background-color: transparent; 
+
+        & .line{
+            height: 25vh;
+            width: 2px;
+            border-radius: 50%; 
+            background-color: $font-color;  
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        & ul{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+
+            & .socialMedia-logo{
+                font-size: 1.3rem; 
+                list-style: none;
+                margin: 5px; 
+                
+                &:hover{
+                    color: #fefefe;
+                }
+            }
+        }
+        
+    }
+}

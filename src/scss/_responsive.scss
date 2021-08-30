@@ -1,0 +1,53 @@
+@media screen and (max-width:1200px){
+    .projects .cards{ 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media screen and (max-width: 900px){
+    .projects .cards{ 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media screen and (max-width: 936px){
+    .projects .cards{ 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (max-width: 700px){
+    .projects .cards{ 
+        grid-template-columns: repeat(2, 1fr); 
+
+        & .card .title{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+ 
+    }
+}
+@media screen and (max-width: 517px){
+    .projects .cards{ 
+        grid-template-columns: repeat(1, 1fr);  
+    }
+}
+
+@media screen and (max-width: 400px){
+ 
+    .projects .cards{ 
+        grid-template-columns: repeat(1, 1fr);   
+  
+    }
+
+    .contact .contact-section .contact-text{
+        font-size: x-small;
+    }
+    .footer .footer-contant{
+        flex-direction: column-reverse;
+        
+        & .footer-section{
+            margin-top: 1rem;
+        }
+    }
+} 

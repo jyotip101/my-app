@@ -1,0 +1,47 @@
+.homePage{ 
+     
+    // margin: 0 auto;
+    background-color:transparent; 
+    margin-left: auto;
+    margin-right: auto;
+
+    &-contant{ 
+ 
+        height: 300px; 
+        margin: 0 auto; 
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & h1{
+            font-size: 200%;
+
+        }
+        & .contact-btn{
+            
+            margin: 1rem;
+
+            & .btn{
+                outline: none;
+                border: 2px solid $font-color;
+                background-color: transparent;
+                color: $font-color; 
+                font-weight: 600;
+                font-size: 1rem;
+                padding: 10px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: $set-transition; 
+                margin: 0.5rem;
+     
+                
+                &:hover{
+                    background-color: $bg-color;
+                    color: $font-color;
+                }
+            }
+        }
+ 
+    }
+}
