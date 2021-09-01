@@ -1,6 +1,7 @@
 .work{
     background: transparent;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 
     &-section{
         display: flex;
@@ -18,8 +19,8 @@
             & .btn{
                 outline: none;
                 border: none;
-                background-color: $font-color;
-                color: #fefefe; 
+                background-color: $card-1;
+                color: $font-color; 
                 padding: 8px;
                 border-radius: 2px;
                 cursor: pointer;
@@ -30,9 +31,10 @@
                 }
                 
                 &:hover{
-                    background-color: $card-3;
+                    background-color: $logo-press-color;
                     color: $font-color;
                     transition: $set-transition;
+                    transform: scale(1.1); 
                 }
             }
         }

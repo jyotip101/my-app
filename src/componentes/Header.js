@@ -1,65 +1,79 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {
+    BrowserRouter as Router, 
+    Link
+} from 'react-router-dom'
 // import Dots from './Dots'
 
 const Header = () =>{
    return(
     <>
+    <Router> 
         <header>
             <div className="navbar"> 
                 <div className="logo">
-                    <h1>Logos </h1>
+                    <Link
+                        to='/' 
+                        className="link"
+                    > <h1>Flexer.p </h1></Link> 
                 </div>
                 {/* <li className='nav-item'>
-                        <Link
+                        <Link 
                             to='./' 
-                            to='./' 
-                            onClick={closeMobileMenu} 
+                            // onClick={closeMobileMenu} 
                             className='nav-links'
                         >
                             Services
                         </Link>
                     </li> */}
                 <ul className="nav-items"> 
-                    <li className="nav-item">
+                    {/* <li className="nav-item  ">
                         <Link
-                            to='/'
-                            href="http://" 
+                            to='/' 
                             className="link"
                         >Home</Link>
-                    </li>
+                    </li> */}
                     {/* <Dots /> */}
                     <li className="nav-item">
                         <Link
-                            to='./'
-                            href="http://" 
+                            to='/contact' 
                             className="link"
                         >Contacts</Link>
                     </li>
                     {/* <Dots /> */}
                     <li className="nav-item">
                         <Link
-                            to='./'
+                            to='/'
                             href="http://" 
                             className="link"
                         >About</Link>
                     </li>
                     {/* <Dots /> */}
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <Link
-                            to='./Project' 
+                            to='/Project' 
                             className="link"
                         >Projects</Link>
                     </li>  
                 </ul>
-{/* 
-                <div className="btn">
-                    <button className="btn-item">
-                        Contacts
-                    </button>
-                </div> */}
+
+                <div className="socialIcons">
+                    <ul>
+                        <li>
+                            <i className='fab fa-twitter'/>
+                        </li>
+                        <li>
+                            <i className='fab fa-github'/>
+                        </li>
+                        <li>
+                            <i className='fab fa-linkedin'/>
+                        </li>
+                    </ul>
+                </div>
+
             </div> 
         </header>
+        </Router>
     </>
    )
 }

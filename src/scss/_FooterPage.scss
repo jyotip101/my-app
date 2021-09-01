@@ -1,13 +1,15 @@
 .footer{
-    background: transparent;
-    margin-bottom: 0;
+    background: $footer-color;
+    margin-top: auto;
+    
 
     &-contant{
+        margin-bottom: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 100px;
+        min-height: 100px;
         margin-left: auto;
         margin-right: auto;
 
@@ -25,11 +27,11 @@
                 display: block;
                 text-decoration: none;
                 font-size: 25px;
-                color: $font-color;
+                color: $logo-color;
                 transition: $set-transition;
                 
                 &:hover{
-                    color: $card-3; 
+                    color: $logo-press-color; 
                 }
             }
         }

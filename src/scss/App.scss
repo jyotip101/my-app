@@ -1,9 +1,9 @@
 @import './config';
-@import './dots';
+// @import './dots';
 @import './Header';
-@import './SocialMedia';
+// @import './SocialMedia';
 @import './HomePage';
-@import './SkillsPage';
+// @import './SkillsPage';
 @import './Project';
 @import './responsive';
 @import './Work';
@@ -16,5 +16,8 @@ body{
 .App{
     // margin-left: auto;
     // margin-right: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

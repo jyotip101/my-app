@@ -1,11 +1,12 @@
 // $bg-color: #ddd4ca;
-$font-color: #161718;
+$font-color: #16181e;
+$logo-press-color: #F44336;
 $main-color: #eec97e;
-$bg-color: #f7f5e8;
-$card-1:#fbbaa6;
-$card-2:#fefefe;
-$card-3:#f3cd82;
+$bg-color: #ffffff;
+$logo-color: #fb6c6d; 
 $set-transition: all 0.2s linear; 
+$footer-color: #9da6b642;
+$card-1: #fb6c6d;
 // projects #fbbaa6  #fefefe  #f3cd82
 
 
@@ -22,4 +23,5 @@ html{
 p{
     font-size: 16px;
     line-height: 1.6em;
+    color: $font-color;
 }

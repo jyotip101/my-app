@@ -18,7 +18,7 @@ const Projects = () =>{
                     <h1 className="title" >Title of projects in any lag</h1> 
                     <div className="btn">
                         <button className="btn-item">
-                            Source code <i className="fab fa-github"></i>
+                        <a href="https://github.com/jyotip101/TimeLine-in-ReactJS" target="_blank" rel="noopener noreferrer"> Source code </a><i className="fab fa-github"> </i>
                         </button>
                         <button className="arrow">
                             <i className="fas fa-long-arrow-alt-right" />
@@ -34,7 +34,7 @@ const Projects = () =>{
                     <h1 className="title">Title of projects in any lag</h1>
                     <div className="btn">
                         <button className="btn-item">
-                            Source code <i className="fab fa-github"></i>
+                        <a href="https://github.com/jyotip101/Webside-in-React.git" target="_blank" rel="noopener noreferrer"> Source code </a> <i className="fab fa-github"> </i>
                         </button>
                         <button className="arrow">
                             <i className="fas fa-long-arrow-alt-right" />
@@ -43,7 +43,7 @@ const Projects = () =>{
                 </div>
 
                 
-                <div className="card">
+                {/* <div className="card">
                     <img src="" alt=""/> 
                     <button className="preview">
                         Preview <i className="fas fa-eye"></i>
@@ -110,8 +110,8 @@ const Projects = () =>{
                     </div>
                 </div>
 
-
-                <div className="card">
+    */}
+                <div className="card"> 
                     <img src="" alt=""/> 
                     <button className="preview">
                         Preview <i className="fas fa-eye"></i>
@@ -119,7 +119,7 @@ const Projects = () =>{
                     <h1 className="title" >Title of projects in any lag</h1> 
                     <div className="btn">
                         <button className="btn-item">
-                            Source code <i className="fab fa-github"></i>
+                            Source code <i className="fab fa-github"><a href="https://github.com/jyotip101/Todo-App-in-ReactJS.git" target="_blank" rel="noopener noreferrer"></a></i>
                         </button>
                         <button className="arrow">
                             <i className="fas fa-long-arrow-alt-right" />
@@ -135,7 +135,7 @@ const Projects = () =>{
                     <h1 className="title" >Title of projects in any lag</h1> 
                     <div className="btn">
                         <button className="btn-item">
-                            Source code <i className="fab fa-github"></i>
+                            Source code <i className="fab fa-github"><a href="https://github.com/jyotip101/Chatting-Application-in-java.git"></a></i>
                         </button>
                         <button className="arrow">
                             <i className="fas fa-long-arrow-alt-right" />
