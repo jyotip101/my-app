@@ -1,5 +1,8 @@
 import React from 'react'
 
+import ResDowlode from '../Resume.docx'
+// '.../src/Resume.docx'
+
 const Work = () =>{
     return(
     <>
@@ -12,6 +15,14 @@ const Work = () =>{
                 <div className="work-btn">
                     <button className="btn">
                        work<i className="fas" /> /
+                    </button>
+                    <button className="btn">
+                      <a 
+                        // href={require("../Resume.docx")} 
+                        href={ResDowlode}
+                        download='resume'
+                        target="_blank"
+                      > Resume </a>
                     </button>
                 </div>
             </div>

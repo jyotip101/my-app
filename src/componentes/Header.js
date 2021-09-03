@@ -4,7 +4,7 @@ import {
     Link
 } from 'react-router-dom'
 // import Dots from './Dots'
-
+import aboutPage from './pages/aboutPage'
 const Header = () =>{
    return(
     <>
@@ -43,7 +43,7 @@ const Header = () =>{
                     {/* <Dots /> */}
                     <li className="nav-item">
                         <Link
-                            to='/'
+                            to={aboutPage}
                             href="http://" 
                             className="link"
                         >About</Link>
@@ -51,7 +51,7 @@ const Header = () =>{
                     {/* <Dots /> */}
                     <li className="nav-item">
                         <Link
-                            to='/Project' 
+                            to='./pages/Project' 
                             className="link"
                         >Projects</Link>
                     </li>  
